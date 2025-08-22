@@ -1,3 +1,0 @@
-- search command that returns top 5 results with embeds
-- reactions on that message send requests
-- confirmation of the request ?

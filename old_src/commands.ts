@@ -1,6 +1,6 @@
-import "dotenv/config";
-import { InstallGlobalCommands } from "./utils.ts";
 import type { APIApplicationCommand } from "discord-api-types/v10";
+import "dotenv/config";
+import { InstallGlobalCommands } from "./utils.js";
 
 const TEST_COMMAND = {
   name: "test",
