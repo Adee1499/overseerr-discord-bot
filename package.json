@@ -1,0 +1,38 @@
+{
+  "name": "overseerr-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that integrates with Overseerr to let users search for movies and TV shows, view details (title, year, overview, poster, TMDb link), and request them directly from the Discord server. Built with Discord.js and Overseerr's API, the bot provides an interactive workflow with embeds and reactions, making it easy to manage media requests without exposing Overseerr to the internet.",
+  "main": "app.ts",
+  "type": "module",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "scripts": {
+    "start": "node app.ts",
+    "register": "node commands.ts",
+    "dev": "nodemon app.ts"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "overseerr",
+    "plex",
+    "radarr",
+    "sonarr",
+    "media-request",
+    "discord.js"
+  ],
+  "author": "Adrian Szarapow",
+  "license": "MIT",
+  "dependencies": {
+    "discord-api-types": "^0.38.21",
+    "discord-interactions": "^4.3.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0",
+    "nodemon": "^3.1.10"
+  }
+}
