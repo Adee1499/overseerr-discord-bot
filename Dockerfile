@@ -20,4 +20,4 @@ COPY . .
 RUN pnpm run build
 
 # Start command
-CMD ["node", "dist/index.js"]
+CMD ["node", "dist/index.cjs"]
