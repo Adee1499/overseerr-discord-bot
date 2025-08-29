@@ -36,3 +36,12 @@ cp .env.sample .env
 # run the bot (adjust if your package.json uses different scripts)
 pnpm start
 # npm run start
+```
+
+## 🖼️ Screenshot
+
+<p align="center">
+  <img src="screenshot.png" alt="Screenshot" width="720"/>
+</p>
+
+---
